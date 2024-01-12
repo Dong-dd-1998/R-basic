@@ -1,0 +1,37 @@
+*Quy trình phân tích dữ liệu* 
+
+Bất thường → mục tiêu phân tích= thông điệp muốn truyền tải → biến số cần thiết → phương pháp thống kê → xác định lệnh / hàm trong R
+
+Bất thường:
+
+- xem xét số tối đa và tối thiểu trong một biến
+- tính hợp lý - validity
+- tính nhất quán - consistency
+- lẫn lộn biến
+
+Mục tiêu: → `đòi hỏi thời gian suy nghĩ` 
+
+- Mô tả hay kiểm định giả thuyết
+- Muốn độc giả lĩnh hội cái thông điệp nào
+- Phác họa bảng số liệu và biểu đồ muốn có
+
+Xác định biến số:
+
+- Biến số liên quan tới mục tiêu
+- Biến liên tục - contimous hay phân nhóm - categorical
+
+Phương pháp phân tích thống kê 
+
+- Tùy thuộc vào mục tiêp và biến số
+- Mô tả: mean, standard deviation, median, proportion
+- Tương quan: regression models
+- So sánh 2 nhóm:
+    - Biến liên tục: t-test, wilcoxon’s rank test, permutation …
+    - Biến phân nhóm: chi-squared test, binomial test
+
+Xác định hàm / lệnh trong R: 
+
+- Chỉ cần một số hàm/ lệnh căn bản
+- Hàm có thể tìm trong các package
+- Mỗi phương pháp phân tích = nhiều hàm khác nhau qua nhiều gói khác
+- Có khi chỉ cần 1 lệnh từ một package
